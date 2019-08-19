@@ -60,21 +60,36 @@ Overview
 
 Integrate Github events with todoist tasks and projects
 
-* Free software: MIT license
 
 Installation
 ============
 
 ::
 
-    pip install todoist-github
+    pip install git+git://github.com/steven-murray/todoist-github
+
+
+Features
+========
+
+* Run via command-line
+* TOML config file for easy setup
+* Creates a new project for every repo that you own or are a member of
+* Creates a new task for every issue/PR that you are assigned to, or if you own the repo,
+  will make a new task for _every_ issue.
+* Removes tasks that are no longer open issues/PRs.
+* Allows you to set due dates, organize by priority etc yourself on todoist.
+* All tasks are named [issue.name]: [isssue.url] for ease of finding the original issue.
+
+Future features:
+
+* Customize how (and which) tasks are created via the TOML file.
 
 Documentation
 =============
 
 
-https://todoist-github.readthedocs.io/
-
+Future documentation will be hosted at https://todoist-github.readthedocs.io/
 
 Development
 ===========
