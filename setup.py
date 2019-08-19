@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='todoist-github',
-    version='0.0.0',
+    version='0.1.0',
     license='MIT license',
     description='Integrate Github events with todoist tasks and projects',
     long_description='%s\n%s' % (

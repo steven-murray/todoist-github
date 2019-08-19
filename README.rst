@@ -39,9 +39,9 @@ Overview
     :alt: PyPI Package latest release
     :target: https://pypi.org/project/todoist-github
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/steven-murray/todoist-github/v0.0.0.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/steven-murray/todoist-github/v0.1.0.svg
     :alt: Commits since latest release
-    :target: https://github.com/steven-murray/todoist-github/compare/v0.0.0...master
+    :target: https://github.com/steven-murray/todoist-github/compare/v0.1.0...master
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/todoist-github.svg
     :alt: PyPI Wheel
