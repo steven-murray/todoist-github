@@ -68,7 +68,7 @@ setup(
     keywords=[
         # eg: 'keyword1', 'keyword2', 'keyword3',
     ],
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
+    python_requires='>=3.5',
     install_requires=[
         'click',
         'cached_property',
@@ -78,8 +78,7 @@ setup(
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
     ],
     extras_require={
-        # eg:
-        #   'rst': ['docutils>=0.11'],
+        'dev': ['bump2version', 'sphinx'],
         #   ':python_version=="2.6"': ['argparse'],
     },
     setup_requires=[
